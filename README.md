@@ -1,9 +1,7 @@
-<p style="text-align: center">
-  <h1>LegacyTrack</h1>
-</p>
+<h1>LegacyTrack</h1>
 <br>
 
-<center>A small Minecraft resource pack containing a .json file that remaps all music sound events to play C418 music like how it is on the legacy editions of Minecraft.</center>
+A small Minecraft resource pack containing a .json file that remaps all music sound events to play C418 music like how it is on the legacy editions of Minecraft.
 <br>
 
 <center>![C418 Minecraft Alpha Volume Soundtrack Album Cover](https://archive.org/details/minecraft-volume-alpha)</center>
