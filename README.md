@@ -18,7 +18,7 @@ A small Minecraft Java resource pack containing a .json file that remaps all mus
 2. Navigate to the resource packs folder in your minecraft directory (.minecraft/resourcepacks) and put the zip file there.
 3. In the game, navigate to the resource packs menu and load the resource pack (it is recommended to put the resource pack at the top of the list of loaded resource packs).
 
-## Supported Versions
+## Supported Game Versions
 `Java 1.21.8`
 
 ## How it works
@@ -219,6 +219,9 @@ The .json file provided redefines these sound events with their own sounds list 
 
 
 For all documentation about sound events and a list of all sound events along with their associated sound files and attributes, I highly recommend visiting the ![Minecraft Wiki](https://minecraft.wiki/w/Sounds.json#File_structure). Additionally, if you would like an updated json structure of sound events, visit ![MCA Explorer](https://mcasset.cloud/1.21.8/assets/minecraft/sounds.json).
+
+## Copyright
+* All C418 soundtracks belong to ![Daniel Rosenfield](https://en.wikipedia.org/wiki/C418).
 
 ## Notes
 * Please refrain from posting issues regarding when the resource pack will be updated for a certain version of the game. I cannot guarantee when I will be updating the resource pack to a certain version of the game and will simply ignore/delete those issues. I will post to the issues tab of what update I will be updating the resource pack to.
