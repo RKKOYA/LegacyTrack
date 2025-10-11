@@ -15,8 +15,9 @@ A small Minecraft Java resource pack containing a .json file that remaps all mus
 
 ## Installation
 1. Navigate to the releases on the right to download the specified release version. You should be getting a zip file containing the files found in this repository.
-2. Navigate to the resource packs folder in your minecraft directory (.minecraft/resourcepacks) and put the zip file there.
-3. In the game, navigate to the resource packs menu and load the resource pack (it is recommended to put the resource pack at the top of the list of loaded resource packs).
+2. Unzip the file and zip all the files from the unzipped folder into a zip file.
+3. Navigate to the resource packs folder in your minecraft directory (.minecraft/resourcepacks) and put the zip file there.
+4. In the game, navigate to the resource packs menu and load the resource pack (it is recommended to put the resource pack at the top of the list of loaded resource packs).
 
 ## Supported Game Versions
 `Java 1.21.8`
