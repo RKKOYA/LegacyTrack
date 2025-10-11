@@ -1,5 +1,5 @@
 <p style="text-align: center">
-  <h1">LegacyTrack</h1>
+  <h1>LegacyTrack</h1>
 </p>
 <br>
 
