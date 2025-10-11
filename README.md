@@ -1,4 +1,6 @@
-<h2 style="text-align: center;">LegacyTrack</h2>
+<p style="text-align: center">
+  <h1">LegacyTrack</h1>
+</p>
 <br>
 
 <center>A small Minecraft resource pack containing a .json file that remaps all music sound events to play C418 music like how it is on the legacy editions of Minecraft.</center>
