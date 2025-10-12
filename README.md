@@ -5,6 +5,8 @@ A small Minecraft Java resource pack containing a .json file that remaps all mus
 </p>
 <br>
 
+
+
 <p align="center">
   <img src="https://ia601804.us.archive.org/20/items/minecraft-volume-alpha/Cover.jpg?cnt=0" width="250">
 </p>
@@ -12,6 +14,44 @@ A small Minecraft Java resource pack containing a .json file that remaps all mus
   Image Credit: C418 Alpha Volume Album Cover
 </p>
 <br>
+
+## Goals
+The project aims to play the Minecraft background music as follows:
+* Main Menu:
+  * Beginning 2
+  * Floating Trees
+  * Moog City 2
+  * Mutation
+* Survival (every biome minus deepdark²):
+  * Clark
+  * Danny
+  * Dry Hands
+  * Haggstrom
+  * Key
+  * Living Mice
+  * Mice on Venus
+  * Mineraft
+  * Wet Hands
+  * Oxygene
+  * Sweden
+  * Wet Hands
+* Creative (every biome):
+  * Aria Math
+  * Biome Fest
+  * Blind Spots
+  * Dreiton
+  * Haunt Muskie
+  * Taswell
+* Nether (every biome)
+  * Chrysopoeia²
+  * Rubedo²
+  * So Below²
+  * Dead Voxel²
+  * Concrete Halls
+  * Warmth
+  * Ballad of the Cats
+* Underwater (UNCHANGED)
+* End (UNCHANGED)
 
 ## Installation
 1. Navigate to the releases on the right to download the specified release version. You should be getting a .zip file containing the files found in this repository.
@@ -225,9 +265,9 @@ For all documentation about sound events and a list of all sound events along wi
 ## Copyright
 * All C418 soundtracks belong to ![Daniel Rosenfield](https://en.wikipedia.org/wiki/C418).
 
-## Notes
-* Please refrain from posting issues regarding when the resource pack will be updated for a certain version of the game. I cannot guarantee when I will be updating the resource pack to a certain version of the game and will simply ignore/delete those issues. I will post to the issues tab of what update I will be updating the resource pack to.
-* I decided to keep the deep dark and the new nether soundtrack since I found that they stay close to the theme of the biome/dimension.
-* If there are any issues you come across, please don't hesitate to post the issue on the issues tab of the repository. I plan to address issues there.
-* There is also no guarantee that a Bedrock version of this resource pack will be made. Like the updates, I will put an issue for making a Bedrock version of the resource pack to say that there will be one in the future.
-* There may be incompatibilities with mods, datapacks, other resource packs, mod loaders, and game versions. Please let me know of them in the issues and I will see what I can do to fix the issues on my end.
+## Foot Notes
+1. Please refrain from posting issues regarding when the resource pack will be updated for a certain version of the game. I cannot guarantee when I will be updating the resource pack to a certain version of the game and will simply ignore/delete those issues. I will post to the issues tab of what update I will be updating the resource pack to.
+2. I decided to keep the deep dark and the new nether soundtrack since I found that they stay close to the theme of the biome/dimension.
+3. If there are any issues you come across, please don't hesitate to post the issue on the issues tab of the repository. I plan to address issues there.
+4. There is also no guarantee that a Bedrock version of this resource pack will be made. Like the updates, I will put an issue for making a Bedrock version of the resource pack to say that there will be one in the future.
+5. There may be incompatibilities with mods, datapacks, other resource packs, mod loaders, and game versions. Please let me know of them in the issues and I will see what I can do to fix the issues on my end.
