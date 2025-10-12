@@ -4,10 +4,10 @@
 		"replace": true,
 		"sounds":
 		[
-			{ "name": "music/menu/beginning_2", "stream": true },
-			{ "name": "music/menu/floating_trees", "stream": true },
-			{ "name": "music/menu/moog_city_2", "stream": true },
-			{ "name": "music/menu/mutation", "stream": true }
+			{ "name": "music/menu/beginning_2", 	"stream": true },
+			{ "name": "music/menu/floating_trees",	"stream": true },
+			{ "name": "music/menu/moog_city_2", 	"stream": true },
+			{ "name": "music/menu/mutation", 		"stream": true }
 		]
 	},
 	"music.game":
@@ -15,18 +15,18 @@
 		"replace": true,
 		"sounds":
 		[
-			{ "name": "music/game/clark", "stream": true },
-			{ "name": "music/game/danny", "stream": true },
-			{ "name": "music/game/dry_hands", "stream": true },
-			{ "name": "music/game/haggstrom", "stream": true },
-			{ "name": "music/game/key", "stream": true },
-			{ "name": "music/game/living_mice", "stream": true },
-			{ "name": "music/game/mice_on_venus", "stream": true },
-			{ "name": "music/game/minecraft", "stream": true },
-			{ "name": "music/game/wet_hands", "stream": true },
-			{ "name": "music/game/oxygene", "stream": true },
-			{ "name": "music/game/sweden", "stream": true },
-			{ "name": "music/game/wet_hands", "stream": true }
+			{ "name": "music/game/clark",			"stream": true },
+			{ "name": "music/game/danny", 			"stream": true },
+			{ "name": "music/game/dry_hands", 		"stream": true },
+			{ "name": "music/game/haggstrom", 		"stream": true },
+			{ "name": "music/game/key", 			"stream": true },
+			{ "name": "music/game/living_mice", 	"stream": true },
+			{ "name": "music/game/mice_on_venus", 	"stream": true },
+			{ "name": "music/game/minecraft", 		"stream": true },
+			{ "name": "music/game/wet_hands", 		"stream": true },
+			{ "name": "music/game/oxygene", 		"stream": true },
+			{ "name": "music/game/sweden", 			"stream": true },
+			{ "name": "music/game/wet_hands", 		"stream": true }
 		]
 	},
 	"music.creative":
@@ -34,12 +34,12 @@
 		"replace": true,
 		"sounds":
 		[
-			{ "name": "music/game/creative/aria_math", "stream": true },
-			{ "name": "music/game/creative/biome_fest", "stream": true },
-			{ "name": "music/game/creative/blind_spots", "stream": true },
-			{ "name": "music/game/creative/dreiton", "stream": true },
-			{ "name": "music/game/creative/haunt_muskie", "stream": true },
-			{ "name": "music/game/creative/taswell", "stream": true }
+			{ "name": "music/game/creative/aria_math", 		"stream": true },
+			{ "name": "music/game/creative/biome_fest", 	"stream": true },
+			{ "name": "music/game/creative/blind_spots", 	"stream": true },
+			{ "name": "music/game/creative/dreiton", 		"stream": true },
+			{ "name": "music/game/creative/haunt_muskie", 	"stream": true },
+			{ "name": "music/game/creative/taswell", 		"stream": true }
 		]
 	},
 	"music.overworld.badlands":
