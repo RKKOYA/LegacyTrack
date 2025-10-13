@@ -260,10 +260,10 @@ The .json file provided redefines these sound events with their own sounds list 
 
 
 
-For all documentation about sound events and a list of all sound events along with their associated sound files and attributes, I highly recommend visiting the ![Minecraft Wiki](https://minecraft.wiki/w/Sounds.json#File_structure). Additionally, if you would like an updated json structure of sound events, visit ![MCA Explorer](https://mcasset.cloud/1.21.8/assets/minecraft/sounds.json).
+For all documentation about sound events and a list of all sound events along with their associated sound files and attributes, I highly recommend visiting the [Minecraft Wiki](https://minecraft.wiki/w/Sounds.json#File_structure). Additionally, if you would like an updated json structure of sound events, visit [MCA Explorer](https://mcasset.cloud/1.21.8/assets/minecraft/sounds.json).
 
 ## Copyright
-* All C418 soundtracks belong to ![Daniel Rosenfield](https://en.wikipedia.org/wiki/C418).
+* All C418 soundtracks belong to [Daniel Rosenfield](https://en.wikipedia.org/wiki/C418).
 
 ## Foot Notes
 1. Please refrain from posting issues regarding when the resource pack will be updated for a certain version of the game. I cannot guarantee when I will be updating the resource pack to a certain version of the game and will simply ignore/delete those issues. I will post to the issues tab of what update I will be updating the resource pack to.
