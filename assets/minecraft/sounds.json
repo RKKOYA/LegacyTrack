@@ -42,6 +42,52 @@
 			{ "name": "music/game/creative/taswell", 		"stream": true }
 		]
 	},
+	"music.nether.nether_wastes":
+	{
+		"replace": true,
+		"sounds":
+		[
+			{ "name": "music/game/nether/crimson_forest/chrysopoeia",	"stream": true },
+			{ "name": "music/game/nether/nether_wastes/rubedo",			"stream": true },
+			{ "name": "music/game/nether/soulsand_valley/so_below",		"stream": true },
+			{ "name": "music/game/nether/ballad_of_the_cats",			"stream": true },
+			{ "name": "music/game/nether/concrete_halls",				"stream": true },
+			{ "name": "music/game/nether/dead_voxel",					"stream": true },
+			{ "name": "music/game/nether/warmth",						"stream": true }
+		]
+	},
+	"music.nether.basalt_deltas":
+	{
+		"replace": true,
+		"sounds":
+		[
+			{ "name": "music.nether.nether_wastes", "type": "event" }
+		]
+	},
+	"music.nether.crimson_forest":
+	{
+		"replace": true,
+		"sounds":
+		[
+			{ "name": "music.nether.nether_wastes", "type": "event" }
+		]
+	},
+	"music.nether.soul_sand_valley":
+	{
+		"replace": true,
+		"sounds":
+		[
+			{ "name": "music.nether.nether_wastes", "type": "event" }
+		]
+	},
+	"music.nether.warped_forest":
+	{
+		"replace": true,
+		"sounds":
+		[
+			{ "name": "music.nether.nether_wastes", "type": "event" }
+		]
+	},	
 	"music.overworld.badlands":
 	{
 		"replace": true,
