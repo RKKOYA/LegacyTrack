@@ -30,7 +30,7 @@ The project aims to play the Minecraft background music as follows:
   * Key
   * Living Mice
   * Mice on Venus
-  * Mineraft
+  * Minecraft
   * Wet Hands
   * Oxygene
   * Sweden
