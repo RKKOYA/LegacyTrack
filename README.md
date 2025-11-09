@@ -34,7 +34,6 @@ The project aims to play the Minecraft background music as follows:
   * Wet Hands
   * Oxygene
   * Sweden
-  * Wet Hands
 * Creative (every biome):
   * Aria Math
   * Biome Fest
