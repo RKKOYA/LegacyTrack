@@ -1,7 +1,7 @@
 # Legacy Track
 
 ## Description
-A small Minecraft Java resource pack containing a .json file that remaps all music sound events to play C418 music like how it is on the legacy editions of Minecraft.
+A pair of small resource packs that remaps all music sound events to play C418 music like how it is on the legacy editions of Minecraft.
 </p>
 <br>
 
@@ -30,11 +30,10 @@ The project aims to play the Minecraft background music as follows:
   * Key
   * Living Mice
   * Mice on Venus
-  * Mineraft
+  * Minecraft
   * Wet Hands
   * Oxygene
   * Sweden
-  * Wet Hands
 * Creative (every biome):
   * Aria Math
   * Biome Fest
