@@ -33,7 +33,7 @@ The project aims to play the Minecraft background music as follows:
   * Wet Hands
   * Oxygene
   * Sweden
-* Creative (every biome):
+* Creative (every biome including underwater):
   * Aria Math
   * Biome Fest
   * Blind Spots
@@ -48,7 +48,7 @@ The project aims to play the Minecraft background music as follows:
   * Concrete Halls
   * Warmth
   * Ballad of the Cats
-* Underwater (UNCHANGED)
+* Underwater (UNCHANGED for survival, CHANGED to creative music)
 * End (UNCHANGED)
 
 ## Supported Game Versions
