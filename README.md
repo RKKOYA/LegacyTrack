@@ -56,11 +56,10 @@ The project aims to play the Minecraft background music as follows:
 `Java 1.21.8`
 
 ## Installation
-1. Navigate to the releases on the right to download the specified release version. You should be getting a .zip file containing the files found in this repository.
-2. Unzip the .zip file and you should be getting two folders with the same name as the .zip file. LegacyTrack is the base resource pack and LegacyTrackC is the creative mode addon.
-3. 
-4. 
-5. 
+1. Navigate to the releases on the right to download the specified release version. You should be getting a .zip file.
+2. Unzip the .zip file and you should be getting two zipped folders; one for LegacyTrack and the other for LegacyTrackC. Each zipped folder contains the neceessary resource pack files.
+3. Move those .zip folders over to the minecraft resourcepacks folder.
+4. In the game, navigate to options -> resourcepacks and load LegacyTrack during survival mode. In creative mode, load LegacyTrackC on top of LegacyTrack; unload LegacyTrackC when switching back to survival mode.
 
 ## How it works
 Sound events are used in Minecraft to indicate what sound file to use (e.g.: on creative mode, the music.creative sound event is used to play background music that belongs to that event). 
