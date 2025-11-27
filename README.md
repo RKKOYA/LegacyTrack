@@ -1,10 +1,9 @@
 # Legacy Track
 
 ## Description
-A pair of small resource packs that remaps all music sound events to play C418 music like how it is on the legacy editions of Minecraft.
+A pair of small resource packs that remaps all music sound events to play C418 music like how it is on the legacy editions of Minecraft. This project aims to only resource packs to accomplish this task.
 </p>
 <br>
-
 
 
 <p align="center">
@@ -59,10 +58,10 @@ The project aims to play the Minecraft background music as follows:
 1. Navigate to the releases on the right to download the specified release version. You should be getting a .zip file.
 2. Unzip the .zip file and you should be getting two zipped folders; one for LegacyTrack and the other for LegacyTrackC. Each zipped folder contains the neceessary resource pack files.
 3. Move those .zip folders over to the minecraft resourcepacks folder.
-4. In the game, navigate to options -> resourcepacks and load LegacyTrack during survival mode. In creative mode, load LegacyTrackC on top of LegacyTrack; unload LegacyTrackC when switching back to survival mode.
+4. In the game, navigate to options -> resourcepacks and load LegacyTrack. In creative mode, load LegacyTrackC on top of LegacyTrack; unload LegacyTrackC when switching back to survival mode.
 
 ## How it works
-Sound events are used in Minecraft to indicate what sound file to use (e.g.: on creative mode, the music.creative sound event is used to play background music that belongs to that event). 
+Sound events are used in Minecraft as of 1.21.8 to indicate what sound file to use (e.g.: in the badlands biome, the 'music.overworld.badlands' sound event is triggered). 
 There are sound events for background music that are triggered based on the corresponding events:
 * User Interface
   * music.menu
@@ -97,7 +96,7 @@ There are sound events for background music that are triggered based on the corr
   * music.nether.soul_sand_valley
   * music.nether.warped_forest
 
-The .json file provided redefines these sound events with their own sounds list to play specifically C418 music.
+The resource packs provide .json files that redefines this sound events to specifically play music like how it is on legacy console editions.
 
 ### Examples:
 
