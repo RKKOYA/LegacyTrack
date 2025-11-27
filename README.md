@@ -1,10 +1,9 @@
 # Legacy Track
 
 ## Description
-A small Minecraft Java resource pack containing a .json file that remaps all music sound events to play C418 music like how it is on the legacy editions of Minecraft.
+A pair of small resource packs that remaps all music sound events to play C418 music like how it is on the legacy editions of Minecraft. This project aims to only resource packs to accomplish this task.
 </p>
 <br>
-
 
 
 <p align="center">
@@ -34,7 +33,7 @@ The project aims to play the Minecraft background music as follows:
   * Wet Hands
   * Oxygene
   * Sweden
-* Creative (every biome):
+* Creative (every biome including underwater):
   * Aria Math
   * Biome Fest
   * Blind Spots
@@ -49,21 +48,20 @@ The project aims to play the Minecraft background music as follows:
   * Concrete Halls
   * Warmth
   * Ballad of the Cats
-* Underwater (UNCHANGED)
+* Underwater (UNCHANGED for survival, CHANGED to creative music)
 * End (UNCHANGED)
 
 ## Supported Game Versions
 `Java 1.21.8`
 
 ## Installation
-1. Navigate to the releases on the right to download the specified release version. You should be getting a .zip file containing the files found in this repository.
-2. Unzip the .zip file and you should be getting a folder with the same name as the .zip file.
-3. Go into the folder and there should be another folder with the same name.
-4. Zip that folder and navigate to the resource packs folder in your minecraft directory (.minecraft/resourcepacks) and put the zip file there.
-5. In the game, navigate to the resource packs menu and load the resource pack (it is recommended to put the resource pack at the top of the list of loaded resource packs).
+1. Navigate to the releases on the right to download the specified release version. You should be getting a .zip file.
+2. Unzip the .zip file and you should be getting two zipped folders; one for LegacyTrack and the other for LegacyTrackC. Each zipped folder contains the neceessary resource pack files.
+3. Move those .zip folders over to the minecraft resourcepacks folder.
+4. In the game, navigate to options -> resourcepacks and load LegacyTrack. In creative mode, load LegacyTrackC on top of LegacyTrack; unload LegacyTrackC when switching back to survival mode.
 
 ## How it works
-Sound events are used in Minecraft to indicate what sound file to use (e.g.: on creative mode, the music.creative sound event is used to play background music that belongs to that event). 
+Sound events are used in Minecraft as of 1.21.8 to indicate what sound file to use (e.g.: in the badlands biome, the 'music.overworld.badlands' sound event is triggered). 
 There are sound events for background music that are triggered based on the corresponding events:
 * User Interface
   * music.menu
@@ -98,7 +96,7 @@ There are sound events for background music that are triggered based on the corr
   * music.nether.soul_sand_valley
   * music.nether.warped_forest
 
-The .json file provided redefines these sound events with their own sounds list to play specifically C418 music.
+The resource packs provide .json files that redefines this sound events to specifically play music like how it is on legacy console editions.
 
 ### Examples:
 
