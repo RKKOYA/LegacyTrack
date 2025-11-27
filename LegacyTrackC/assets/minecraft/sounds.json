@@ -231,5 +231,13 @@
 		[
 			{ "name": "music.creative", "type": "event" }
 		]
+	},
+	"music.under_water":
+	{
+		"replace": true,
+		"sounds":
+		[
+			{ "name": "music.creative", "type": "event" }
+		]
 	}
 }
