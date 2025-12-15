@@ -10,8 +10,8 @@ A pair of small resource packs that remaps all music sound events to play C418 m
 
 <div align="center">
   
-[![GitHub Downloads](https://img.shields.io/github/downloads/rkkoya/LegacyTrack/total?logo=github&color=48cae4)](https://github.com/RKKOYA/LegacyTrack/releases)
-[![Modrinth Downloads](https://img.shields.io/modrinth/dt/6Ptdj5WF?logo=modrinth&color=08000)](https://modrinth.com/mod/legacytrack)
+[![GitHub Downloads](https://img.shields.io/github/downloads/rkkoya/LegacyTrack/total?style=for-the-badge&logo=github&color=006ca5)](https://github.com/RKKOYA/LegacyTrack/releases)
+[![Modrinth Downloads](https://img.shields.io/modrinth/dt/6Ptdj5WF?style=for-the-badge&logo=modrinth&color=008000)](https://modrinth.com/mod/legacytrack)
 
 </div>
 
