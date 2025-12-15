@@ -1,20 +1,34 @@
-# Legacy Track
-
-## Description
+</p>
+<br>
+<p align="center">
+  <img width="300" height="300" alt="pack" src="https://github.com/user-attachments/assets/342526df-2cb8-4b3b-820e-37e639917154" />
+</p>
+<p align="center">
 A pair of small resource packs that remaps all music sound events to play C418 music like how it is on the legacy editions of Minecraft. This project aims to only resource packs to accomplish this task.
 </p>
 <br>
 
+![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/rkkoya/LegacyTrack/total?logo=github&color="48cae4")
+![Modrinth Downloads](https://img.shields.io/modrinth/dt/6Ptdj5WF?logo=modrinth&color=08000)
 
-<p align="center">
-  <img src="https://ia601804.us.archive.org/20/items/minecraft-volume-alpha/Cover.jpg?cnt=0" width="250">
-</p>
-<p align="center">
-  Image Credit: C418 Alpha Volume Album Cover
-</p>
-<br>
 
-## Goals
+
+
+## Table of Contents
+1. [Goals](#goals)
+2. [Supported Game Versions](#supported-game-versions)
+3. [Installation](#installation)
+4. [How it Works](#how-it-works)
+   - 4.1 [Examples](#examples)
+        - 4.1.1 [User Interface](#user-interface)
+        - 4.1.2 [Game Mode](#game-mode)
+        - 4.1.3 [Biome](#biome)
+5. [Copyright](#copyright)
+6. [Foot Notes](#foot-notes)
+
+
+
+## 1. Goals <a name="goals"></a>
 The project aims to play the Minecraft background music as follows:
 * Main Menu:
   * Beginning 2
@@ -51,16 +65,36 @@ The project aims to play the Minecraft background music as follows:
 * Underwater (UNCHANGED for survival, CHANGED to creative music)
 * End (UNCHANGED)
 
-## Supported Game Versions
+## 2. Supported Game Versions <a name="supported-game-versions"></a>
 `Java 1.21.8`
 
-## Installation
+## 3. Installation <a name="installation"></a>
 1. Navigate to the releases on the right to download the specified release version. You should be getting a .zip file.
-2. Unzip the .zip file and you should be getting two zipped folders; one for LegacyTrack and the other for LegacyTrackC. Each zipped folder contains the neceessary resource pack files.
-3. Move those .zip folders over to the minecraft resourcepacks folder.
-4. In the game, navigate to options -> resourcepacks and load LegacyTrack. In creative mode, load LegacyTrackC on top of LegacyTrack; unload LegacyTrackC when switching back to survival mode.
+<img width="814" height="146" alt="assets" src="https://github.com/user-attachments/assets/37967931-c460-4e9b-afc9-cbb54a334a66" />
 
-## How it works
+2. Unzip the .zip file and you should be getting a folder containing two zipped folders; one for LegacyTrack and the other for LegacyTrackC. Each zipped folder contains the necessary resource pack files.
+<img width="500" height="182" alt="extract" src="https://github.com/user-attachments/assets/c1270ea5-315f-4d3b-8d34-8ba52f05467b" />
+
+3. Move those two .zip folders over to the minecraft resourcepacks folder.
+
+4. In the game, navigate to options -> resourcepacks and load LegacyTrack. In creative mode, load LegacyTrackC on top of LegacyTrack; unload LegacyTrackC when switching back to survival mode.
+<table>
+<tr>
+<th>Survival</th>
+<th>Creative</th>
+</tr>
+<tr>
+<td>
+<img width="614" height="166" alt="survivalmode" src="https://github.com/user-attachments/assets/11ce2eb3-8e84-45a0-9ba8-c3d476f3b791" />
+</td>
+<td>
+<img width="619" height="271" alt="creativemode" src="https://github.com/user-attachments/assets/b65d1cc8-2b00-47a5-a333-82667eaf12e1" />
+</td>
+</tr>
+
+</table>
+
+## 4. How it works <a name="how-it-works"></a>
 Sound events are used in Minecraft as of 1.21.8 to indicate what sound file to use (e.g.: in the badlands biome, the 'music.overworld.badlands' sound event is triggered). 
 There are sound events for background music that are triggered based on the corresponding events:
 * User Interface
@@ -98,9 +132,9 @@ There are sound events for background music that are triggered based on the corr
 
 The resource packs provide .json files that redefines this sound events to specifically play music like how it is on legacy console editions.
 
-### Examples:
+### 4.1 Examples: <a name="examples"></a>
 
-#### User Interface:
+#### 4.1.1 User Interface: <a name="user-interface"></a>
 <table>
 <tr>
 <th>Vanilla</th>
@@ -149,7 +183,7 @@ The resource packs provide .json files that redefines this sound events to speci
 
 </table>
 
-#### Gamemode:
+#### 4.1.2 Gamemode:  <a name="game-mode"></a>
 <table>
 <tr>
 <th>Vanilla</th>
@@ -197,7 +231,7 @@ The resource packs provide .json files that redefines this sound events to speci
 </tr>
 </table>
 
-#### Biome: 
+#### 4.1.3 Biome: <a name="biome"></a>
 <table>
 <tr>
 <th>Vanilla</th>
@@ -257,12 +291,12 @@ The resource packs provide .json files that redefines this sound events to speci
 
 
 
-For all documentation about sound events and a list of all sound events along with their associated sound files and attributes, I highly recommend visiting the [Minecraft Wiki](https://minecraft.wiki/w/Sounds.json#File_structure). Additionally, if you would like an updated json structure of sound events, visit [MCA Explorer](https://mcasset.cloud/1.21.8/assets/minecraft/sounds.json).
+For all documentation about sound events and a list of all sound events along with their associated sound files and attributes, I highly recommend visiting the [Minecraft Wiki](https://minecraft.wiki/w/Sounds.json#File_structure). Additionally, if you would like an updated JSON structure of sound events, visit [Minecraft Assets Explorer](https://mcasset.cloud/1.21.8/assets/minecraft/sounds.json).
 
-## Copyright
+## 5. Copyright <a name="copyright"></a>
 * All C418 soundtracks belong to [Daniel Rosenfield](https://en.wikipedia.org/wiki/C418).
 
-## Foot Notes
+## 6. Foot Notes <a name="foot-notes"></a>
 1. Please refrain from posting issues regarding when the resource pack will be updated for a certain version of the game. I cannot guarantee when I will be updating the resource pack to a certain version of the game and will simply ignore/delete those issues. I will post to the issues tab of what update I will be updating the resource pack to.
 2. I decided to keep the deep dark and the new nether soundtrack since I found that they stay close to the theme of the biome/dimension.
 3. If there are any issues you come across, please don't hesitate to post the issue on the issues tab of the repository. I plan to address issues there.
