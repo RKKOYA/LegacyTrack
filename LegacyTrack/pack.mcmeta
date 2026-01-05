@@ -1,7 +1,7 @@
 {
     "pack": {
         "description": "Remaps music events to select C418 music.",
-        "min_format": [69, 0],
-        "max_format": [69, 0]
+        "min_format": [75, 0],
+        "max_format": [75, 0]
     }
 }
