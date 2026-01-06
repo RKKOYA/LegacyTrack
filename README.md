@@ -12,7 +12,7 @@ A pair of small resource packs that remaps all music sound events to play C418 m
   
 [![GitHub Downloads](https://img.shields.io/github/downloads/rkkoya/LegacyTrack/total?style=for-the-badge&logo=github&color=006ca5)](https://github.com/RKKOYA/LegacyTrack/releases)
 [![Modrinth Downloads](https://img.shields.io/modrinth/dt/6Ptdj5WF?style=for-the-badge&logo=modrinth&color=008000)](https://modrinth.com/mod/legacytrack)
-![CurseForge Downloads](https://img.shields.io/curseforge/dt/1421832?style=for-the-badge&logo=CurseForge&color=orange)
+[![CurseForge Downloads](https://img.shields.io/curseforge/dt/1421832?style=for-the-badge&logo=CurseForge&color=orange)](https://legacy.curseforge.com/minecraft/texture-packs/legacytrack)
 
 
 </div>
