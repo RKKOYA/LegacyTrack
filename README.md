@@ -9,9 +9,10 @@ A pair of small resource packs that remaps all music sound events to play C418 m
 <br>
 
 <div align="center">
-  
+
 [![GitHub Downloads](https://img.shields.io/github/downloads/rkkoya/LegacyTrack/total?style=for-the-badge&logo=github&color=006ca5)](https://github.com/RKKOYA/LegacyTrack/releases)
 [![Modrinth Downloads](https://img.shields.io/modrinth/dt/6Ptdj5WF?style=for-the-badge&logo=modrinth&color=008000)](https://modrinth.com/mod/legacytrack)
+[![CurseForge Downloads](https://img.shields.io/curseforge/dt/1421832?style=for-the-badge&logo=CurseForge&color=orange)](https://legacy.curseforge.com/minecraft/texture-packs/legacytrack)
 
 </div>
 
@@ -46,6 +47,7 @@ The project aims to play the Minecraft background music as follows:
   * Minecraft
   * Wet Hands
   * Oxygene
+  * Subwoofer Lullaby
   * Sweden
 * Creative (every biome including underwater):
   * Aria Math
@@ -266,18 +268,19 @@ The resource packs provide .json files that redefines this sound events to speci
   "replace": true,
   "sounds":
   [
-    { "name": "music/game/clark",         "stream": true },
-    { "name": "music/game/danny",         "stream": true },
-    { "name": "music/game/dry_hands",     "stream": true },
-    { "name": "music/game/haggstrom",     "stream": true },
-    { "name": "music/game/key",           "stream": true },
-    { "name": "music/game/living_mice",   "stream": true },
-    { "name": "music/game/mice_on_venus", "stream": true },
-    { "name": "music/game/minecraft",     "stream": true },
-    { "name": "music/game/wet_hands",     "stream": true },
-    { "name": "music/game/oxygene",       "stream": true },
-    { "name": "music/game/sweden",        "stream": true },
-    { "name": "music/game/wet_hands",     "stream": true }
+    { "name": "music/game/clark",         		"stream": true },
+    { "name": "music/game/danny",         		"stream": true },
+    { "name": "music/game/dry_hands",     		"stream": true },
+    { "name": "music/game/haggstrom",     		"stream": true },
+    { "name": "music/game/key",           		"stream": true },
+    { "name": "music/game/living_mice",   		"stream": true },
+    { "name": "music/game/mice_on_venus", 		"stream": true },
+    { "name": "music/game/minecraft",     		"stream": true },
+    { "name": "music/game/wet_hands",     		"stream": true },
+    { "name": "music/game/oxygene",       		"stream": true },
+    { "name": "music/game/sweden",        		"stream": true },
+    { "name": "music/game/subwoofer_lullaby", 	"stream": true },
+    { "name": "music/game/wet_hands",     		"stream": true }
   ]
 }
 ```

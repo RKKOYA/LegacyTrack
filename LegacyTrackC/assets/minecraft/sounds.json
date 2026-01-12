@@ -15,18 +15,19 @@
 		"replace": true,
 		"sounds":
 		[
-			{ "name": "music/game/clark",			"stream": true },
-			{ "name": "music/game/danny", 			"stream": true },
-			{ "name": "music/game/dry_hands", 		"stream": true },
-			{ "name": "music/game/haggstrom", 		"stream": true },
-			{ "name": "music/game/key", 			"stream": true },
-			{ "name": "music/game/living_mice", 	"stream": true },
-			{ "name": "music/game/mice_on_venus", 	"stream": true },
-			{ "name": "music/game/minecraft", 		"stream": true },
-			{ "name": "music/game/wet_hands", 		"stream": true },
-			{ "name": "music/game/oxygene", 		"stream": true },
-			{ "name": "music/game/sweden", 			"stream": true },
-			{ "name": "music/game/wet_hands", 		"stream": true }
+			{ "name": "music/game/clark",				"stream": true },
+			{ "name": "music/game/danny", 				"stream": true },
+			{ "name": "music/game/dry_hands", 			"stream": true },
+			{ "name": "music/game/haggstrom", 			"stream": true },
+			{ "name": "music/game/key", 				"stream": true },
+			{ "name": "music/game/living_mice", 		"stream": true },
+			{ "name": "music/game/mice_on_venus", 		"stream": true },
+			{ "name": "music/game/minecraft", 			"stream": true },
+			{ "name": "music/game/wet_hands", 			"stream": true },
+			{ "name": "music/game/oxygene", 			"stream": true },
+			{ "name": "music/game/sweden", 				"stream": true },
+			{ "name": "music/game/subwoofer_lullaby",	"stream": true },
+			{ "name": "music/game/wet_hands", 			"stream": true }
 		]
 	},
 	"music.creative":
