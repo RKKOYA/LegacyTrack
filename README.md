@@ -9,23 +9,23 @@ A pair of small resource packs that remaps all music sound events to play C418 m
 <br>
 
 <div align="center">
-  
+
 [![GitHub Downloads](https://img.shields.io/github/downloads/rkkoya/LegacyTrack/total?style=for-the-badge&logo=github&color=006ca5)](https://github.com/RKKOYA/LegacyTrack/releases)
 [![Modrinth Downloads](https://img.shields.io/modrinth/dt/6Ptdj5WF?style=for-the-badge&logo=modrinth&color=008000)](https://modrinth.com/mod/legacytrack)
+[![CurseForge Downloads](https://img.shields.io/curseforge/dt/1421832?style=for-the-badge&logo=CurseForge&color=orange)](https://legacy.curseforge.com/minecraft/texture-packs/legacytrack)
 
 </div>
 
 ## Table of Contents
 1. [Goals](#goals)
-2. [Supported Game Versions](#supported-game-versions)
-3. [Installation](#installation)
-4. [How it Works](#how-it-works)
-   - 4.1 [Examples](#examples)
-        - 4.1.1 [User Interface](#user-interface)
-        - 4.1.2 [Game Mode](#game-mode)
-        - 4.1.3 [Biome](#biome)
-5. [Copyright](#copyright)
-6. [Foot Notes](#foot-notes)
+2. [Installation](#installation)
+3. [How it Works](#how-it-works)
+   - 3.1 [Examples](#examples)
+        - 3.1.1 [User Interface](#user-interface)
+        - 3.1.2 [Game Mode](#game-mode)
+        - 3.1.3 [Biome](#biome)
+4. [Copyright](#copyright)
+5. [Foot Notes](#foot-notes)
 
 
 
@@ -47,6 +47,7 @@ The project aims to play the Minecraft background music as follows:
   * Minecraft
   * Wet Hands
   * Oxygene
+  * Subwoofer Lullaby
   * Sweden
 * Creative (every biome including underwater):
   * Aria Math
@@ -66,10 +67,7 @@ The project aims to play the Minecraft background music as follows:
 * Underwater (UNCHANGED for survival, CHANGED to creative music)
 * End (UNCHANGED)
 
-## 2. Supported Game Versions <a name="supported-game-versions"></a>
-`Java 1.21.8`
-
-## 3. Installation <a name="installation"></a>
+## 2. Installation <a name="installation"></a>
 1. Navigate to the releases on the right to download the specified release version. You should be getting a .zip file.
 <img width="814" height="146" alt="assets" src="https://github.com/user-attachments/assets/37967931-c460-4e9b-afc9-cbb54a334a66" />
 
@@ -95,7 +93,7 @@ The project aims to play the Minecraft background music as follows:
 
 </table>
 
-## 4. How it works <a name="how-it-works"></a>
+## 3. How it works <a name="how-it-works"></a>
 Sound events are used in Minecraft as of 1.21.8 to indicate what sound file to use (e.g.: in the badlands biome, the 'music.overworld.badlands' sound event is triggered). 
 There are sound events for background music that are triggered based on the corresponding events:
 * User Interface
@@ -133,9 +131,9 @@ There are sound events for background music that are triggered based on the corr
 
 The resource packs provide .json files that redefines this sound events to specifically play music like how it is on legacy console editions.
 
-### 4.1 Examples: <a name="examples"></a>
+### 3.1 Examples: <a name="examples"></a>
 
-#### 4.1.1 User Interface: <a name="user-interface"></a>
+#### 3.1.1 User Interface: <a name="user-interface"></a>
 <table>
 <tr>
 <th>Vanilla</th>
@@ -184,7 +182,7 @@ The resource packs provide .json files that redefines this sound events to speci
 
 </table>
 
-#### 4.1.2 Gamemode:  <a name="game-mode"></a>
+#### 3.1.2 Gamemode:  <a name="game-mode"></a>
 <table>
 <tr>
 <th>Vanilla</th>
@@ -232,7 +230,7 @@ The resource packs provide .json files that redefines this sound events to speci
 </tr>
 </table>
 
-#### 4.1.3 Biome: <a name="biome"></a>
+#### 3.1.3 Biome: <a name="biome"></a>
 <table>
 <tr>
 <th>Vanilla</th>
@@ -270,18 +268,19 @@ The resource packs provide .json files that redefines this sound events to speci
   "replace": true,
   "sounds":
   [
-    { "name": "music/game/clark",         "stream": true },
-    { "name": "music/game/danny",         "stream": true },
-    { "name": "music/game/dry_hands",     "stream": true },
-    { "name": "music/game/haggstrom",     "stream": true },
-    { "name": "music/game/key",           "stream": true },
-    { "name": "music/game/living_mice",   "stream": true },
-    { "name": "music/game/mice_on_venus", "stream": true },
-    { "name": "music/game/minecraft",     "stream": true },
-    { "name": "music/game/wet_hands",     "stream": true },
-    { "name": "music/game/oxygene",       "stream": true },
-    { "name": "music/game/sweden",        "stream": true },
-    { "name": "music/game/wet_hands",     "stream": true }
+    { "name": "music/game/clark",         		"stream": true },
+    { "name": "music/game/danny",         		"stream": true },
+    { "name": "music/game/dry_hands",     		"stream": true },
+    { "name": "music/game/haggstrom",     		"stream": true },
+    { "name": "music/game/key",           		"stream": true },
+    { "name": "music/game/living_mice",   		"stream": true },
+    { "name": "music/game/mice_on_venus", 		"stream": true },
+    { "name": "music/game/minecraft",     		"stream": true },
+    { "name": "music/game/wet_hands",     		"stream": true },
+    { "name": "music/game/oxygene",       		"stream": true },
+    { "name": "music/game/sweden",        		"stream": true },
+    { "name": "music/game/subwoofer_lullaby", 	"stream": true },
+    { "name": "music/game/wet_hands",     		"stream": true }
   ]
 }
 ```
@@ -294,10 +293,10 @@ The resource packs provide .json files that redefines this sound events to speci
 
 For all documentation about sound events and a list of all sound events along with their associated sound files and attributes, I highly recommend visiting the [Minecraft Wiki](https://minecraft.wiki/w/Sounds.json#File_structure). Additionally, if you would like an updated JSON structure of sound events, visit [Minecraft Assets Explorer](https://mcasset.cloud/1.21.8/assets/minecraft/sounds.json).
 
-## 5. Copyright <a name="copyright"></a>
+## 4. Copyright <a name="copyright"></a>
 * All C418 soundtracks belong to [Daniel Rosenfield](https://en.wikipedia.org/wiki/C418).
 
-## 6. Foot Notes <a name="foot-notes"></a>
+## 5. Foot Notes <a name="foot-notes"></a>
 1. Please refrain from posting issues regarding when the resource pack will be updated for a certain version of the game. I cannot guarantee when I will be updating the resource pack to a certain version of the game and will simply ignore/delete those issues. I will post to the issues tab of what update I will be updating the resource pack to.
 2. I decided to keep the deep dark and the new nether soundtrack since I found that they stay close to the theme of the biome/dimension.
 3. If there are any issues you come across, please don't hesitate to post the issue on the issues tab of the repository. I plan to address issues there.
