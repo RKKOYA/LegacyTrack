@@ -68,15 +68,12 @@ The project aims to play the Minecraft background music as follows:
 * End (UNCHANGED)
 
 ## 2. Installation <a name="installation"></a>
-1. Navigate to the releases on the right to download the specified release version. You should be getting a .zip file.
-<img width="814" height="146" alt="assets" src="https://github.com/user-attachments/assets/37967931-c460-4e9b-afc9-cbb54a334a66" />
+1. Navigate to the releases on the right side of the repository page to download the specified release version. You should be downloading 2 .zip files (one for survival and one for creative).
+<img width="1380" height="217" alt="image" src="https://github.com/user-attachments/assets/fb464f16-2a3b-486a-bc78-128cf18e7d64" />
 
-2. Unzip the .zip file and you should be getting a folder containing two zipped folders; one for LegacyTrack and the other for LegacyTrackC. Each zipped folder contains the necessary resource pack files.
-<img width="500" height="182" alt="extract" src="https://github.com/user-attachments/assets/c1270ea5-315f-4d3b-8d34-8ba52f05467b" />
+2. Move those 2 .zip folders over to the minecraft resourcepacks folder.
 
-3. Move those two .zip folders over to the minecraft resourcepacks folder.
-
-4. In the game, navigate to options -> resourcepacks and load LegacyTrack. In creative mode, load LegacyTrackC on top of LegacyTrack; unload LegacyTrackC when switching back to survival mode.
+3. In the game, navigate to options -> resourcepacks and load LegacyTrack. In creative mode, load LegacyTrackC on top of LegacyTrack; unload LegacyTrackC when switching back to survival mode.
 <table>
 <tr>
 <th>Survival</th>
