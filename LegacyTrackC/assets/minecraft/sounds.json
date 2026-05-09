@@ -128,6 +128,14 @@
 			{ "name": "music.creative", "type": "event" }
 		]
 	},
+	"music.overworld.deep_dark":
+	{
+		"replace": true,
+		"sounds":
+		[
+			{ "name": "music.creative", "type": "event" }
+		]
+	},
 	"music.overworld.flower_forest":
 	{
 		"replace": true,
