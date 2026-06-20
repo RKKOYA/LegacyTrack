@@ -87,15 +87,7 @@
 		[
 			{ "name": "music.nether.nether_wastes", "type": "event" }
 		]
-	},
-	"music.overworld.sulfur_caves":
-	{
-		"replace": true,
-		"sounds":
-		[
-			{ "name": "music.creative", "type": "event" }
-		]
-	},
+	},	
 	"music.overworld.badlands":
 	{
 		"replace": true,
